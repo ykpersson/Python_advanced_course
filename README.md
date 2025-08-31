@@ -1,10 +1,10 @@
 # Python_advanced_course
 
-## 🧾 Årsredovisningspipeline
+## Årsredovisningspipeline
 
 Ett automatiserat system för att hämta, extrahera och lagra finansiell information från Bolagsverkets årsredovisningar, och är byggt med modulär kod, testdriven utveckling och fullständig loggning, som senare ska användas till att beräkna diverse ekonomiska nyckeltal.
 
-## 📁 Mappstruktur
+## Mappstruktur
 
 årsredovisningspipeline/
 
@@ -19,7 +19,7 @@ Ett automatiserat system för att hämta, extrahera och lagra finansiell informa
 ├── fel.log                     # Loggfil med fel och teststatus  
 ├── felrapport_YYMMDD.pdf       # PDF med felposter  
 └── felrapport_YYMMDD.joblib    # Serialiserad felrapport  
-### 🧪 Testmotor
+### Testmotor
 
 Alla moduler testas automatiskt via `test_pipeline.py`.  
 Testresultat sparas som `.joblib`-filer och loggas med status per modul.  
